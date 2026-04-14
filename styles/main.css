@@ -1,0 +1,45 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Form styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Confirmation classes */
+.error {
+    color: #d9534f; /* Red */
+    background: #f9d6d5;
+    padding: 10px;
+    border: 1px solid #d9534f;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: #5cb85c; /* Green */
+    background: #dff0d8;
+    padding: 10px;
+    border: 1px solid #5cb85c;
+    margin-bottom: 10px;
+}
